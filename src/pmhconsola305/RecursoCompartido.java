@@ -26,7 +26,6 @@ public class RecursoCompartido {
         for (int i = 0; i<10; i++) {
             lista[i] = lista[i] + valor;
         }
-//        mostrar();
     }
     
     /**
@@ -37,7 +36,6 @@ public class RecursoCompartido {
         for (int i = 0; i<10; i++) {
             lista[i] = lista[i] - valor;
         }
-//        mostrar();
     }
     
     /**
