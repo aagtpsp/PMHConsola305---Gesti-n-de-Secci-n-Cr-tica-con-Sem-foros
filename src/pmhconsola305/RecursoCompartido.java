@@ -44,10 +44,10 @@ public class RecursoCompartido {
      * Muestra todas las posiciones del vector
     */
     public void mostrar() {
-        for (int i = 0; i<10; i++) System.out.print(i + ":" + lista[i] + "- ");
+        for (int i = 0; i<10; i++) System.out.print(lista[i] + "-");
         // Probar con esta sentencia para comprobar que no siempre se incrementa
         // y decrementa hilo a hilo
-        // for (int i = 0; i<10; i++) if (lista[i] > 9) System.out.println(lista[i]);
+        // for (int i = 0; i<10; i++) if (lista[i] > 9) System.out.print(lista[i] + "-");
         System.out.println("Fin");
     }
 }
